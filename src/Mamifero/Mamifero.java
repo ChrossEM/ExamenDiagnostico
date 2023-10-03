@@ -16,16 +16,16 @@ public class Mamifero {
         this.nombreCientifico = nombreCientifico;
     }
 
-    private String comer(){
+    protected String comer(){
      return "comiendo";
  }
- private String dormir(){
+ protected String dormir(){
      return "durmiendo";
  }
- private  String correr(){
+ protected  String correr(){
      return  "corriendo";
  }
- private String comunicarse(){
+ protected String comunicarse(){
      return  "comunicando";
  }
 

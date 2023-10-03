@@ -11,4 +11,11 @@ public class Canino extends Mamifero {
         this.color = color;
         this.tamanoColmillos = tamanoColmillos;
     }
+
+    public String getColor() {
+        return color;
+    }
+    public Float getTamanoColmillos() {
+        return tamanoColmillos;
+    }
 }
