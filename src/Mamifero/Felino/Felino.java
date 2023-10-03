@@ -19,4 +19,24 @@ public class Felino extends Mamifero {
     public Integer getVelocidad() {
         return velocidad;
     }
+
+    @Override
+    protected String comer() {
+        return null;
+    }
+
+    @Override
+    protected String dormir() {
+        return null;
+    }
+
+    @Override
+    protected String correr() {
+        return null;
+    }
+
+    @Override
+    protected String comunicarse() {
+        return null;
+    }
 }

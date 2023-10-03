@@ -11,4 +11,24 @@ public class Perro extends Canino{
     public Integer getFuerzaMordida() {
         return fuerzaMordida;
     }
+
+    @Override
+    protected String comer() {
+        return null;
+    }
+
+    @Override
+    protected String dormir() {
+        return null;
+    }
+
+    @Override
+    protected String correr() {
+        return null;
+    }
+
+    @Override
+    protected String comunicarse() {
+        return null;
+    }
 }
