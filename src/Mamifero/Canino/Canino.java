@@ -2,7 +2,7 @@ package Mamifero.Canino;
 
 import Mamifero.Mamifero;
 
-public class Canino extends Mamifero {
+public abstract class Canino extends Mamifero {
     private String color;
     private Float tamanoColmillos;
 

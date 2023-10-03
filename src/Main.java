@@ -12,6 +12,8 @@ public class Main {
         // Press Alt+Intro with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         Lobo[] lobos = new Lobo[10];
+        Perro[] perros = new Perro[10];
+        Guepardo[] guepardos = new Guepardo[10];
 
         // Inicializar cada elemento del arreglo con un objeto Lobo único
         lobos[0] = new Lobo("Bosque", 1.2f, 1.8f, 30.0f, "Canis lupus", "Gris", 5.0f, "Lobo Gris", 1);
@@ -25,8 +27,6 @@ public class Main {
         lobos[8] = new Lobo("Tundra", 1.0f, 1.6f, 30.0f, "Canis lupus", "Blanco", 5.3f, "Lobo de la Tundra", 9);
         lobos[9] = new Lobo("Selva", 1.3f, 2.0f, 34.0f, "Canis lupus", "Marrón", 5.7f, "Lobo de la Selva", 10);
 
-        Perro[] perros = new Perro[10];
-
         // Inicializar cada elemento del arreglo con un objeto Perro único
         perros[0] = new Perro("Casa", 0.6f, 0.9f, 15.0f, "Canis familiaris", "Marrón", 2.0f, 100);
         perros[1] = new Perro("Casa", 0.7f, 1.0f, 18.0f, "Canis familiaris", "Blanco", 2.2f, 120);
@@ -38,8 +38,6 @@ public class Main {
         perros[7] = new Perro("Casa", 0.8f, 1.3f, 25.0f, "Canis familiaris", "Marrón", 2.4f, 115);
         perros[8] = new Perro("Casa", 0.7f, 1.0f, 17.0f, "Canis familiaris", "Gris", 2.2f, 98);
         perros[9] = new Perro("Casa", 0.6f, 0.9f, 15.0f, "Canis familiaris", "Blanco", 2.1f, 105);
-
-        Guepardo[] guepardos = new Guepardo[10];
 
         // Inicializar cada elemento del arreglo con un objeto Guepardo único
         guepardos[0] = new Guepardo("Savannah", 0.9f, 1.4f, 50.0f, "Acinonyx jubatus", 3.0f, 112);
@@ -53,17 +51,20 @@ public class Main {
         guepardos[8] = new Guepardo("Savannah", 0.93f, 1.7f, 55.0f, "Acinonyx jubatus", 3.4f, 106);
         guepardos[9] = new Guepardo("Savannah", 0.84f, 1.1f, 45.0f, "Acinonyx jubatus", 2.5f, 122);
 
+
         // Usar un foreach para imprimir los atributos de los guepardos
-        for (Guepardo guepardo : guepardos) {
-            System.out.println("Velocidad: " + guepardo.getVelocidad());
-            System.out.println("Hábitat: " + guepardo.getHabitat());
-            System.out.println("Altura: " + guepardo.getAltura());
-            System.out.println("Largo: " + guepardo.getLargo());
-            System.out.println("Peso: " + guepardo.getPeso());
-            System.out.println("Nombre Científico: " + guepardo.getNombreCientifico());
-            System.out.println("Tamaño de Garras: " + guepardo.getTamanoGarras());
-            System.out.println();
-        }
+//        for (Guepardo guepardo : guepardos) {
+//            System.out.println("Velocidad: " + guepardo.getVelocidad());
+//            System.out.println("Hábitat: " + guepardo.getHabitat());
+//            System.out.println("Altura: " + guepardo.getAltura());
+//            System.out.println("Largo: " + guepardo.getLargo());
+//            System.out.println("Peso: " + guepardo.getPeso());
+//            System.out.println("Nombre Científico: " + guepardo.getNombreCientifico());
+//            System.out.println("Tamaño de Garras: " + guepardo.getTamanoGarras());
+//            System.out.println();
+//        }
+
+
 
         // Usar un foreach para imprimir los atributos de los perros
         // for (Perro perro : perros) {

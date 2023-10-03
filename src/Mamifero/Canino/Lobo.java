@@ -17,4 +17,24 @@ public class Lobo extends Canino {
     public Integer getNumManada() {
         return numManada;
     }
+
+    @Override
+    public String comer() {
+        return "Comida de Lobo";
+    }
+
+    @Override
+    protected String dormir() {
+        return "Dormido de lobo";
+    }
+
+    @Override
+    protected String correr() {
+        return "correr en manada";
+    }
+
+    @Override
+    protected String comunicarse() {
+        return "ahuyado de lobo";
+    }
 }
